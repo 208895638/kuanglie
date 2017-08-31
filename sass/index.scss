@@ -46,11 +46,18 @@ body,html{
     height:5391px;
     background: url(../images/kl_bg.png) no-repeat center top;
     background-size:1920px ;
+    position: relative;
+    
     .top{
         width: 1200px;
         margin: 0 auto;
         position: relative;
         height:1014px;
+        .logo{
+            position: absolute;
+            top:74px;
+            right: 0;
+        }
         ul{
             position: absolute;
             right:0;
@@ -62,6 +69,9 @@ body,html{
                 .login,.register{
                     margin-top:24px ;
                 }
+            }
+            .logins{
+                padding-top: 24px;
             }
         }
         h3{
